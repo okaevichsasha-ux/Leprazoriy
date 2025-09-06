@@ -1,291 +1,140 @@
 <!doctype html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>LEPRAZORIY — Медична рота в/ч А0989</title>
-  <meta name="description" content="Діагностика, фізіотерапія та реабілітація при болю в спині та суглобах. Персональні програми під наглядом спеціалістів.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADITUS — Центр ортопедичної неврології</title>
+  <meta name="description" content="Діагностика, фізіотерапія та реабілітація при болю у спині та суглобах. Персональні програми під наглядом фізіотерапевта.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="home">
 
-<header>
-  <div class="container nav">
-    <div class="left">
-      <img src="assets/logo.svg" alt="Логотип LEPRAZORIY">
-      <strong>LEPRAZORIY</strong>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="left">
+        <img src="assets/logo.svg" alt="Логотип ADITUS">
+        <div><strong>ADITUS</strong><div class="small">Центр ортопедичної неврології</div></div>
+      </div>
+      <nav aria-label="Головна навігація">
+        <a href="#home">Головна</a>
+        <a href="#offer">Послуги</a>
+        <a href="#conditions">Хвороби</a>
+        <a href="team.html">Команда</a>
+        <a href="price.html">Прайс</a>
+        <a href="blog.html">Блог</a>
+        <a href="#contact">Контакти</a>
+        <!-- НОВЕ: пункт меню Пошук -->
+        <a href="search.html">Пошук</a>
+      </nav>
+      <a class="cta" href="#contact">Онлайн-запис</a>
     </div>
-    <nav aria-label="Головна навігація">
-      <a href="index.html#home">Головна</a>
-      <a href="index.html#offer">Наша пропозиція</a>
-      <a href="index.html#conditions">Хвороби</a>
-      <a href="team.html">Команда</a>
-      <a href="price.html">Прайс</a>
-      <a href="blog.html">Блог</a>
-      <a href="index.html#contact">Контакти</a>
-      <a href="search.html">Пошук</a>
-    </nav>
-    <a class="cta" href="index.html#contact">Записатися на прийом онлайн</a>
-  </div>
-</header>
+  </header>
 
-<main>
-  <section class="hero">
-    <div class="slide bg1">
+  <main>
+    <!-- Hero -->
+    <section class="hero">
       <div class="container">
         <span class="badge">Персональні програми</span>
         <h1>Персональні тренування під наглядом фізіотерапевта</h1>
-        <p>Відновіть силу, рухливість та контроль — без зайвих обстежень, тільки те, що працює.</p>
-        <div style="margin-top:14px">
-          <a class="btn" href="#contact">Записатися на прийом</a>
-          <a class="btn secondary" href="#offer">Послуги</a>
+        <p>Відновіть силу, рухливість та контроль — безпечними кроками.</p>
+        <div style="margin-top:14px"><a class="btn" href="#contact">Записатися</a></div>
+      </div>
+    </section>
+
+    <!-- Послуги -->
+    <section class="section container" id="offer">
+      <h2>Наші послуги</h2>
+      <div class="tiles">
+        <a class="tile" href="#contact"><b>Кінезіотерапія</b></a>
+        <a class="tile" href="#contact"><b>Фізична терапія</b></a>
+        <a class="tile" href="#contact"><b>Мануальна терапія</b></a>
+        <a class="tile" href="#contact"><b>Спеціалізовані методи</b></a>
+        <a class="tile" href="#contact"><b>Масаж</b></a>
+        <a class="tile" href="#contact"><b>Групові заняття</b></a>
+        <a class="tile" href="#contact"><b>Діагностика</b></a>
+        <a class="tile" href="#contact"><b>Реабілітація</b></a>
+      </div>
+    </section>
+
+    <!-- Хвороби/стани -->
+    <section id="conditions" class="section container">
+      <h2>Хвороби та стани</h2>
+      <div class="accordion">
+        <div class="item">
+          <div class="head" role="button" aria-expanded="false"><strong>Плечовий суглоб</strong><span>▾</span></div>
+          <div class="body"><p>Імпінджмент, тендинопатії ротаторів, повернення до навантажень над головою.</p></div>
+        </div>
+        <div class="item">
+          <div class="head" role="button" aria-expanded="false"><strong>Колінний суглоб</strong><span>▾</span></div>
+          <div class="body"><p>PFPS, післятравматична реабілітація, повернення до бігу.</p></div>
+        </div>
+        <div class="item">
+          <div class="head" role="button" aria-expanded="false"><strong>Хребет</strong><span>▾</span></div>
+          <div class="body"><p>Шийний/поперековий біль, дискогенні синдроми, SI-дисфункції.</p></div>
         </div>
       </div>
-    </div>
-    <div class="slide bg2" style="display:none">
-      <div class="container">
-        <span class="badge">Діти · Дорослі · Спорт</span>
-        <h1>Ортопедичні устілки в один день та навчання рухам</h1>
-        <p>Скринінг, підбір, інструктаж — простими словами, з відповідальним супроводом.</p>
-        <div style="margin-top:14px"><a class="btn" href="#contact">Онлайн‑запис</a></div>
-      </div>
-    </div>
-    <div class="controls"><span class="dot active"></span><span class="dot"></span></div>
-  </section>
+    </section>
 
-  <section id="offer" class="section pillars">
+    <!-- Контакти/запис -->
+    <section class="section container" id="contact">
+      <h2>Контакти та запис</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <form>
+            <label>Ім’я</label>
+            <input type="text" placeholder="Ваше ім’я">
+            <label>Телефон</label>
+            <input type="tel" placeholder="096 263 28 69">
+            <label>Повідомлення</label>
+            <textarea rows="4" placeholder="Коротко опишіть проблему"></textarea>
+            <button class="btn" type="submit">Надіслати</button>
+            <p class="small">Натискаючи «Надіслати», ви погоджуєтесь із Політикою конфіденційності.</p>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Швидкий запис</h3>
+          <p><strong>Години:</strong> Пн–Пт 09:00–17:00</p>
+          <p><strong>Телефон:</strong> <a href="tel:+380962632869">096 263 28 69</a></p>
+          <p><strong>Адреса:</strong> м. Вінниця, вулиця Гандзюка, 6</p>
+          <p class="small">Також пишіть у повідомлення через форму — передзвонимо.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- НОВЕ: Google Maps -->
+    <section class="section container" id="map">
+      <h2>Мапа</h2>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=м.+Вінниця,+вулиця+Гандзюка,+6&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="Мапа: м. Вінниця, вулиця Гандзюка, 6"></iframe>
+      </div>
+      <p class="small">
+        Не відкривається iFrame? 
+        <a target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=м.+Вінниця,+вулиця+Гандзюка,+6">Відкрити в Google Maps</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
     <div class="container">
-      <div class="grid grid-3">
-        <div class="pillar"><h3>Діагностика</h3><p>Функціональні тести, визначення «водіїв» болю, лише необхідні обстеження.</p></div>
-        <div class="pillar"><h3>Реабілітація</h3><p>Активні протоколи: стабілізація, сенсомоторика, прогресивне навантаження.</p></div>
-        <div class="pillar"><h3>Профілактика</h3><p>Ергономіка, програми підтримки, контроль техніки та прогресу.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container">
-    <h2>Наші послуги</h2>
-    <div class="tiles">
-      <a class="tile" href="#contact"><b>Кінезіотерапія</b></a><a class="tile" href="#contact"><b>Фізична терапія</b></a><a class="tile" href="#contact"><b>Мануальна терапія</b></a><a class="tile" href="#contact"><b>Спеціалізовані методи</b></a><a class="tile" href="#contact"><b>Масаж</b></a><a class="tile" href="#contact"><b>Групові заняття</b></a><a class="tile" href="#contact"><b>Діагностика</b></a><a class="tile" href="#contact"><b>Реабілітація</b></a><a class="tile" href="#contact"><b>Лікарі‑спеціалісти</b></a><a class="tile" href="#contact"><b>Дитячі заняття</b></a><a class="tile" href="#contact"><b>Тренінги</b></a><a class="tile" href="#contact"><b>Дієтологія</b></a>
-    </div>
-  </section>
-
-  <section id="conditions" class="section container">
-    <h2>Хвороби та стани</h2>
-    <div class="accordion">
-      
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції плечового суглоба</strong><span>▾</span></div>
-        <div class="body"><p>Імпінджмент, тендінопатії ротаторів, відновлення ROM і сили.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції ліктьового суглоба</strong><span>▾</span></div>
-        <div class="body"><p>Латеральний/медіальний епікондиліт, програми ексцентричного навантаження.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції рук</strong><span>▾</span></div>
-        <div class="body"><p>Компресійні невропатії, сенсомоторні тренування.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції кульшового суглоба</strong><span>▾</span></div>
-        <div class="body"><p>Біль при ході/сидінні, підбір безпечних патернів руху.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції колінного суглоба</strong><span>▾</span></div>
-        <div class="body"><p>PFPS, повернення до бігу/присідань з прогресією.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дисфункції стопи</strong><span>▾</span></div>
-        <div class="body"><p>Плоскостопість, фасциїт; вправи + устілки за показаннями.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Дефекти постави/сколіоз</strong><span>▾</span></div>
-        <div class="body"><p>Активні стратегії, дихальні патерни, контроль пози.</p></div>
-      </div>
-      <div class="item">
-        <div class="head" role="button" aria-expanded="false"><strong>Синдроми болю в хребті</strong><span>▾</span></div>
-        <div class="body"><p>Шийний/поперековий біль, SI‑дисфункції, стабілізаційні програми.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container">
-    <h2>Що відрізняє нас?</h2>
-    <div class="features">
-      <div class="feature"><img src="assets/check.svg" alt=""><div><strong>Сучасне обладнання</strong><br><span class="small">Функціональні тести, біофідбек, контроль якості рухів.</span></div></div><div class="feature"><img src="assets/check.svg" alt=""><div><strong>Досвідчена команда</strong><br><span class="small">Фізіотерапевти + лікарі, внутрішні протоколи та аудит якості.</span></div></div><div class="feature"><img src="assets/check.svg" alt=""><div><strong>Персональні програми</strong><br><span class="small">Від побутової активності до спорту — під ваші цілі.</span></div></div><div class="feature"><img src="assets/check.svg" alt=""><div><strong>Легке планування</strong><br><span class="small">Онлайн‑запис, нагадування, підтримка у месенджерах.</span></div></div><div class="feature"><img src="assets/check.svg" alt=""><div><strong>Прозорі тарифи</strong><br><span class="small">Вигідні пакети з чітким змістом послуг.</span></div></div><div class="feature"><img src="assets/check.svg" alt=""><div><strong>Комфортний простір</strong><br><span class="small">Зала для навчання, масажні та реабілітаційні кімнати.</span></div></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="card">
-        <h2>Про нас</h2>
-        <p>Ми працюємо прозоро та доказово: пояснюємо причини болю, навчаємо безпечному прогресу, даємо інструменти для самостійної підтримки результату. Наша мета — повернення до активного життя з реалістичними строками.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container" id="team">
-    <h2>Команда</h2>
-    <div class="tabs">
-      <button class="tab active" data-team-tab="all">Усі</button>
-      <button class="tab" data-team-tab="physio">Фізіотерапевт</button>
-      <button class="tab" data-team-tab="doctor">Лікар</button>
-      <select aria-label="Вибрати заклад">
-        <option>Всі заклади</option><option>Відділення А</option><option>Відділення Б</option>
-      </select>
-    </div>
-    <div class="team">
-      
-            <div class="person" data-role="doctor">
-        <div class="photo">
-  <img src="images/okaievych.jpg" alt="Олександр Окаєвич" />
-</div>
-        <div class="info">
-          <h4>Олександр Окаєвич</h4>
-          <div class="small">Лікар‑невролог</div>
-          <div class="small">Заклад: медична рота в/ч А0989</div>
-          <div style="margin-top:8px">
-            <a class="btn" href="#contact">Записатися</a>
-            <a class="btn secondary" href="team.html">Більше</a>
-          </div>
+      <div class="grid grid-2">
+        <div>
+          <strong>ADITUS</strong><br>
+          м. Вінниця, вулиця Гандзюка, 6<br>
+          Тел: <a href="tel:+380962632869">096 263 28 69</a><br>
+          Пн-Пт: 09:00–17:00
         </div>
-      </div>
-      <div class="person" data-role="doctor">
-        <div class="photo" role="img" aria-label="Фото спеціаліста (плейсхолдер)"></div>
-        <div class="info">
-          <h4>Людмила Демченко</h4>
-          <div class="small">Лікар‑невролог</div>
-          <div class="small">Заклад: медична рота в/ч А0989</div>
-          <div style="margin-top:8px">
-            <a class="btn" href="#contact">Записатися</a>
-            <a class="btn secondary" href="team.html">Більше</a>
-          </div>
-        </div>
-      </div>
-      <div class="person" data-role="doctor">
-        <div class="photo" role="img" aria-label="Фото спеціаліста (плейсхолдер)"></div>
-        <div class="info">
-          <h4>Павло Букатін</h4>
-          <div class="small">Лікар оториноларинголог</div>
-          <div class="small">Заклад: медична рота в/ч А0989</div>
-          <div style="margin-top:8px">
-            <a class="btn" href="#contact">Записатися</a>
-            <a class="btn secondary" href="team.html">Більше</a>
-          </div>
-        </div>
-      </div>
-      <div class="person" data-role="physio">
-        <div class="photo" role="img" aria-label="Фото спеціаліста (плейсхолдер)"></div>
-        <div class="info">
-          <h4>Микола Пасько</h4>
-          <div class="small">лікар-хірург</div>
-          <div class="small">Заклад: медична рота в/ч А0989</div>
-          <div style="margin-top:8px">
-            <a class="btn" href="#contact">Записатися</a>
-            <a class="btn secondary" href="team.html">Більше</a>
-          </div>
-        </div>
+        <div>© 2025 центр ортопедичної неврології ADITUS • Інформація на сайті не замінює очної консультації.</div>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section class="section container">
-    <h2>Відгуки</h2>
-    <div class="testimonials">
-      <div class="test-track">
-        <div class="quote"><p>“Отримав чіткий план дій, лікарі підтримали морально. Завтра заступаю на бойову позицію.”<br><span class="small">— Андрій</span></p></div><div class="quote"><p>“Пояснили просто, без ніяких обстежень, що я здоровий.”<br><span class="small">— Олег</span></p></div><div class="quote"><p>“Невролог - Бог, просив, щоб не переігрував — і я повернувся до підрозділу.”<br><span class="small">— Роман</span></p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container" id="blog">
-    <h2>Блог</h2>
-    <div class="posts">
-      
-      <article class="post">
-        <div class="thumb" role="img" aria-label="Зображення статті"></div>
-        <div class="body">
-          <h3>Стабілізаційні вправи: з чого почати</h3>
-          <p class="small">Принципи дозування та контроль техніки.</p>
-          <a class="btn secondary" href="blog.html">Читати</a>
-        </div>
-      </article>
-      <article class="post">
-        <div class="thumb" role="img" aria-label="Зображення статті"></div>
-        <div class="body">
-          <h3>МРТ при болю в спині: коли потрібно?</h3>
-          <p class="small">Коротко про показання і здоровий глузд.</p>
-          <a class="btn secondary" href="blog.html">Читати</a>
-        </div>
-      </article>
-      <article class="post">
-        <div class="thumb" role="img" aria-label="Зображення статті"></div>
-        <div class="body">
-          <h3>Повернення до бігу після загострення</h3>
-          <p class="small">Покроковий план.</p>
-          <a class="btn secondary" href="blog.html">Читати</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section id="contact" class="section container">
-    <h2>Контакти та запис</h2>
-    <div class="grid grid-2">
-      <div class="card">
-        <form class="form" action="#" method="post">
-          <label for="name">Ім’я</label>
-          <input id="name" name="name" type="text" required placeholder="Ваше ім’я">
-          <label for="phone">Телефон</label>
-          <input id="phone" name="phone" type="tel" required placeholder="+380…">
-          <label for="msg">Повідомлення</label>
-          <textarea id="msg" name="message" rows="4" placeholder="Коротко опишіть проблему"></textarea>
-          <button class="btn" type="submit">Надіслати</button>
-          <p class="small">Натискаючи «Надіслати», ви погоджуєтесь із Політикою конфіденційності.</p>
-        </form>
-      </div>
-      <div class="card">
-        <h3>Швидкий запис</h3>
-        <p><strong>Години роботи:</strong> Пн–Пт 09:00–17:00</p>
-        <p>Телефон: <a href="tel:+380962632869">096 263 28 69</a><br>Email: <a href="mailto:leprazory56@gmail.com">you@example.com</a></p>
-        <p><a class="btn" href="https://t.me/username" target="_blank" rel="noopener">Написати у Telegram</a></p>
-        <p class="small">* Без передоплати. Скасування — за 12 год.</p>
-      </div>
-    </div>
-  </section>
-  <section class="section container" id="map">
-  <h2>Мапа</h2>
-  <div class="map-wrap">
-    <iframe
-      src="https://www.google.com/maps?q=м.+Слов'янськ,+вулиця+Торська,+14&output=embed"
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      aria-label="Мапа: м. Слов'янськ, вулиця Торська, 14"></iframe>
-  </div>
-  <p class="small">
-    Не відкривається? 
-    <a target="_blank" rel="noopener"
-       href="https://www.google.com/maps/search/?api=1&query=м.+Вінниця,+вулиця+Гандзюка,+6">Відкрити в Google Maps</a>
-  </p>
-</section>
-</main>
-
-<footer>
-  <div class="container">
-    <div class="grid grid-2">
-      <div>
-        <strong>LEPRAZORIY</strong><br>
-        м. Слов'янськ, вулиця Торська, 14<br>
-        Тел: <a href="tel:+380000000000">000 000 00 00</a> · Email: <a href="mailto:leprazory56@gmail.com">you@example.com</a><br>
-        Пн‑Нд: 09:00–18:00
-      </div>
-      <div>
-        © 2025-09-03 LEPRAZORIY · Оригінальний макет (не копія сторонніх сайтів). Інформація не замінює очну консультацію.
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
