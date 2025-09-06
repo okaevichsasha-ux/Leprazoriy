@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Головна сторінка",
+    "url": "index.html#home",
+    "snippet": "Персональні тренування під наглядом фізіотерапевта.",
+    "tags": [
+      "головна",
+      "фізіотерапія"
+    ]
+  },
+  {
+    "title": "Прайс‑лист",
+    "url": "price.html",
+    "snippet": "Опис і вартість послуг.",
+    "tags": [
+      "ціни",
+      "прайс"
+    ]
+  },
+  {
+    "title": "Команда",
+    "url": "team.html",
+    "snippet": "Наші спеціалісти.",
+    "tags": [
+      "команда",
+      "лікар"
+    ]
+  },
+  {
+    "title": "Блог",
+    "url": "blog.html",
+    "snippet": "Добірка статей для пацієнтів.",
+    "tags": [
+      "блог",
+      "статті"
+    ]
+  },
+  {
+    "title": "Стабілізаційні вправи для попереку: 4 тижні",
+    "url": "articles/stabilization-lumbar-4-weeks.html",
+    "snippet": "План від активації кору до функціональних патернів.",
+    "tags": [
+      "stabilization",
+      "стаття"
+    ]
+  },
+  {
+    "title": "PFPS: план на 6 тижнів",
+    "url": "articles/pfps-6-weeks-plan.html",
+    "snippet": "Квадрицепс, сідничні, техніка присідань, дозований біг.",
+    "tags": [
+      "pfps",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Плантарний фасциїт: бази",
+    "url": "articles/plantar-fasciitis-basics.html",
+    "snippet": "Розтяжки, зміцнення, тимчасові устілки та дозування активності.",
+    "tags": [
+      "plantar",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Шийна радикулопатія: короткий гід",
+    "url": "articles/cervical-radiculopathy-guide.html",
+    "snippet": "Ознаки, ключові тести і що допомагає.",
+    "tags": [
+      "cervical",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Тенісний лікоть: 6‑тижневий протокол",
+    "url": "articles/lateral-epicondylitis-6-weeks.html",
+    "snippet": "Від ізометрій до ексцентрики та повернення до активності.",
+    "tags": [
+      "lateral",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Ахіллова тендинопатія: ексцентрична програма",
+    "url": "articles/achilles-tendinopathy-alfredson.html",
+    "snippet": "Протокол Альфредсона та моніторинг болю.",
+    "tags": [
+      "achilles",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Ротаторна манжета: імпінджмент і повернення",
+    "url": "articles/rotator-cuff-impingement-return.html",
+    "snippet": "Від ізометрій до навантажень над головою.",
+    "tags": [
+      "rotator",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Стабілізація лопатки: 4‑тижні",
+    "url": "articles/scapular-stability-4-weeks.html",
+    "snippet": "Serratus punches, wall angels, контроль ребер.",
+    "tags": [
+      "scapular",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Дискогенний біль у попереку",
+    "url": "articles/discogenic-pain-self-help.html",
+    "snippet": "Патерни згинання/розгинання, перерви, базові вправи.",
+    "tags": [
+      "discogenic",
+      "стаття"
+    ]
+  },
+  {
+    "title": "Міофасціальний біль: самодопомога",
+    "url": "articles/myofascial-pain-self-care.html",
+    "snippet": "Тригерні точки і як працює реліз.",
+    "tags": [
+      "myofascial",
+      "стаття"
+    ]
+  }
+]
